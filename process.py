@@ -31,6 +31,8 @@ from collections import defaultdict, Counter
 #   Y35: justifiable shooting
 #
 # Didn't include Y36.4 (war) or U01.4 (terrorism)
+#
+# Export results: yes
 
 
 # cdc-all-deaths.txt
@@ -41,6 +43,8 @@ from collections import defaultdict, Counter
 #   Single Year Ages
 #
 # Demographics: Single-Year Ages All
+#
+# Export results: yes
 
 def unquote(x):
     if x.startswith('"') and x.endswith('"'):
